@@ -1,4 +1,4 @@
-package javaHomework.Homework1;
+package javaHomework.Homework1.TwoWords;
 
 public class UserWordInterface {
     public static void main(String[] args) {

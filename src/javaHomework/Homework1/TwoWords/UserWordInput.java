@@ -1,4 +1,4 @@
-package javaHomework.Homework1;
+package javaHomework.Homework1.TwoWords;
 
 import java.util.Scanner;
 
