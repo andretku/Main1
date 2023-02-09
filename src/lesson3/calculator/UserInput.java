@@ -8,5 +8,6 @@ public class UserInput {
         Scanner scanner = new Scanner(System.in);   // команда считывания ввода с клавиатуры
         int intInput = scanner.nextInt();           //nextInt - функция считывания ввода, уже встроенная в Яву
         return intInput;
+
     }
 }
