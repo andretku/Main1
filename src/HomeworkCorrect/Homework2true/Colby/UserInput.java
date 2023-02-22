@@ -1,4 +1,4 @@
-package HomeworkCorrect.Homework2true;
+package HomeworkCorrect.Homework2true.Colby;
 
 import java.util.Scanner;
 

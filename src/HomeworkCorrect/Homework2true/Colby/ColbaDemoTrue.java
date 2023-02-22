@@ -1,4 +1,4 @@
-package HomeworkCorrect.Homework2true;
+package HomeworkCorrect.Homework2true.Colby;
 
 public class ColbaDemoTrue {
     public static void main(String[] args) {
