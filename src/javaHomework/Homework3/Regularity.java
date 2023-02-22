@@ -6,7 +6,8 @@ public class Regularity {
     public static void main(String[] args) {
 
         //задание со звездочкой
-        // похоже на двумерный массив, нужно подумать, как его сделать
+        // пока не доделал
+
         int[] a1 = new int[10];
         int[] a2 = new int[10];
         int[] a3 = new int[10];
@@ -28,7 +29,7 @@ public class Regularity {
             a2[i] = a2[i-1] + 2;
             a3[i-1] = i ^ 2;
             a4[i-1] = i ^ 3;
-            a5[i] = a5[i-1] * -1;
+            a5[i] = a5[i-1] * (-1);
 
 
         }
