@@ -28,6 +28,7 @@ public class MassivePary {
                 }
             }
         }
+
         System.out.println("Numbers of pairs are - " + counter);
     }
 }
