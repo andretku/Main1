@@ -9,10 +9,10 @@ public class UserInterface {
         // вываливается ошибка, когда вводишь дробное число (и с запятой, и с точкой) - прошу помощи
         // если вводишь целое - пропускает
 
-        System.out.printf("Please, write sum of dollars: ");
+        System.out.print("Please, write sum of dollars: ");
         double dollars = userInput.userDouble();
 
-        System.out.printf("Please, write exchange rate of euro: ");
+        System.out.print("Please, write exchange rate of euro: ");
         double exchange = userInput.userDouble();
 
 

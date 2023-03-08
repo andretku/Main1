@@ -14,8 +14,8 @@ public class Colby {
     private int temp2;
 
     // добавляем две переменные сравнения
-    private int rangeForFirst;
-    private int rangeForSecond;
+    private final int rangeForFirst;
+    private final int rangeForSecond;
 
     //создали конструктор, и когда подключаем метод в ColbaDemoTrue, там сразу указываем 100 и 100
     public Colby(int rangeForFirst, int rangeForSecond) {

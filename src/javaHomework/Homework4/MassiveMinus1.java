@@ -35,9 +35,7 @@ public class MassiveMinus1 {
 
         //уменьшаем массив, удаляя последний 0
         int[] newArray = new int[arrayFullMinus1.length-1];
-        for (int i = 0; i < newArray.length; i++) {
-            newArray[i] = arrayFullMinus1[i];
-            }
+        System.arraycopy(arrayFullMinus1, 0, newArray, 0, newArray.length);
 
         System.out.println("Array without 1 symbol: " + Arrays.toString(newArray));
 

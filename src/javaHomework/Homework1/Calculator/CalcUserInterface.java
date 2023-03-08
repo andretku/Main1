@@ -6,13 +6,13 @@ public class CalcUserInterface {
         CalcUserInput calcUserInput = new CalcUserInput();
         CalcOperations calcOperations = new CalcOperations();
 
-        System.out.printf("Please, write the first number: ");
+        System.out.print("Please, write the first number: ");
         double x1 = calcUserInput.userDouble();
 
-        System.out.printf("Please, write the second number: ");
+        System.out.print("Please, write the second number: ");
         double x2 = calcUserInput.userDouble();
 
-        System.out.printf("What should I do? Write a symbol of operation: ");
+        System.out.print("What should I do? Write a symbol of operation: ");
         String symbol = calcUserInput.userSymbol();
 
  /*       if (symbol == "+"){                                     //не работает определение символа...
